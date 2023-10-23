@@ -1,0 +1,33 @@
+body {
+    font-family: 'Averia Sans Libre', sans-serif;
+}
+
+.intro {
+    color: white;
+    position: absolute;
+    top: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.horoscope-text {
+    color: white;
+    position: absolute;
+    left: 20vw;
+    width: 60vw;
+    top: 15vh;
+    height: 60vh;
+    font-size: x-large;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 5px white solid;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border-radius: 15vw;
+    background-color: black;
+}
+

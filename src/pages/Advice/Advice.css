@@ -1,0 +1,96 @@
+.chat-header {
+   position: absolute;
+   top: 5vh;
+   left: 0vw;
+   width: 100vw;
+   height: 10vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: xx-large; 
+   color: white;
+}
+
+.convo {
+    color: white;
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+    width: 40vw;
+    overflow: hidden;
+    background-color: lightgrey;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+
+.chat-form {
+   position: absolute;
+   top: 87vh; 
+   left: 0vw;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+}
+
+.chat-input {
+    font-family: 'Averia Sans Libre', sans-serif;
+    background-color: black;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    width: 35vw;
+    height: 5vh;
+    font-size: large;
+}
+
+.chat-input:focus {
+    outline: none;
+}
+
+.chat-ask {
+    color: white;
+    background-color: lightgrey;
+    border-style: none;
+    border-radius: 5px;
+    font-size: large;
+    width: 3vw;
+}
+
+.chat-ask:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+.bot-output {
+    color:black;
+    padding: 2vh;
+    background-color: lightgrey;
+    font-weight: 800;
+}
+
+.user-output {
+    color:black;
+    padding: 2vh;
+    background-color: darkgray;
+}
+
+.continue-button {
+    position: absolute;
+    top: 81vh;
+    left: 31vw;
+    width: 38vw;
+    height: 5vh;
+    font-family: 'Averia Sans Libre', sans-serif;
+    font-size: large;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.continue-button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}

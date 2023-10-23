@@ -1,0 +1,99 @@
+.title {
+    position: absolute;
+    left: 7vw;
+    top: 20vh;
+    width: 93vw;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.title div {
+    margin-top: 10vh;
+    font-family: 'Averia Sans Libre', sans-serif;
+
+}
+
+.image-holder {
+    z-index: 1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0vh;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    }
+
+.constellations {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.signs1 {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.sign1 {
+    width: 25%;
+}
+
+.signs2 {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 33vh;
+    left: 0vw;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.signs3 {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 64vh;
+    left: 0vw;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.fill {
+    width: 100%;
+}
+
+/* .background-container {
+    background-image: url('../../assets/constellations.jpg');
+    background-color: rgb(3, 3, 36);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10vh;
+    width: 60vw;
+    height: 90vh;
+    border:10px green solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
