@@ -5,7 +5,7 @@ import Back from "../../components/Back/Back";
 
 import './Horoscope.css';
 
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://astrobot-backend.onrender.com";
 //const BACKEND_URL = process.env.BACKEND_URL;
 
 const Horoscope = () => {
