@@ -1,5 +1,5 @@
 # Astro Bot
-This site allows the user to select their zodiac sign, and receive different information based on their selection, including:
+[This site](https://astro-bot.vercel.app/) allows the user to select their zodiac sign, and receive different information based on their selection, including:
 1. Getting a daily horoscope courtesy of https://ohmanda.com/api/horoscope/
 2. Chatting with a "Zodiac Expert" to give them advice based on their zodiac sign (which is really the Mistral 7B Instruct LLM pretending to be a zodiac expert). The user can both feed the model questions and tell it to continue its response, since the Mistral responses are limited in length.
 
